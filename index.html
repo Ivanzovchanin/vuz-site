@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ВУЗы РФ — Главная</title>
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Яндекс загрузчик -->
+  <script>window.yaContextCb=window.yaContextCb||[]</script>
+  <script src="https://yandex.ru/ads/system/context.js" async></script>
 </head>
 <body>
 
@@ -26,10 +30,18 @@
       <a href="#" class="btn">Начать подбор</a>
     </section>
 
-    <section class="ad">
-      🔔 Здесь будет Ваша реклама<br>
-      (позже сюда можно вставить баннер Google AdSense)
-    </section>
+<section class="ad">
+  <!-- Yandex.RTB R-A-15896579-1 -->
+  <div id="yandex_rtb_R-A-15896579-1"></div>
+  <script>
+  window.yaContextCb.push(() => {
+      Ya.Context.AdvManager.render({
+          "blockId": "R-A-15896579-1",
+          "renderTo": "yandex_rtb_R-A-15896579-1"
+      })
+  })
+  </script>
+</section>
   </main>
 
   <footer>
